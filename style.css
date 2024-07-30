@@ -1,0 +1,1934 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+a {
+text-decoration: none;
+color: white;
+}
+
+.testeID{
+display: none;  
+}
+
+a:active{
+color: #800000;  
+}
+
+
+body{
+margin: 0;  
+font-family: Arial, sans-serif;
+width: 100%;
+overflow-x: hidden;
+}
+
+
+
+
+.box1{
+position: fixed;
+width: 1903px;
+height: 100px;
+color: white;
+background-color: #F3341F;
+border: 0px solid #000000;
+box-sizing: border-box;  
+z-index: 9998;
+}
+
+
+
+
+.box1 img{
+position: absolute;
+top: 47%;
+left: 25%;
+transform: translate(-50%, -50%);
+z-index: 9998;
+}
+
+
+
+
+.tagIniciais1{
+color: white;
+top: 40px;
+right: 770px; 
+position: fixed;
+font-size: 20px;
+display: flex;
+justify-content: center;
+z-index: 9999;
+}
+.tagIniciais1:active{
+color: #800000;  
+}
+
+
+
+.tagIniciais2{
+color: white;
+top: 40px;
+right: 610px; 
+position: fixed;
+font-size: 20px;
+display: flex;
+justify-content: center;
+z-index: 9999;
+}
+.tagIniciais2:active{
+color: #800000;  
+}
+
+
+
+.tagIniciais3{
+color: white;
+top: 40px;
+right: 450px; 
+position: fixed;
+font-size: 20px;
+display: flex;
+justify-content: center;
+z-index: 9999;
+}
+.tagIniciais3:active{
+color: #800000;  
+}
+
+
+
+
+.tagIniciais4{
+color: white;
+top: 40px;
+right: 300px; 
+position: fixed;
+font-size: 20px;
+display: flex;
+justify-content: center;
+z-index: 9999;
+}
+.tagIniciais4:active{
+color: #800000;  
+}
+
+
+
+.tagIniciais5{
+color: white;
+top: 40px;
+right: 150px; 
+position: fixed;
+font-size: 20px;
+display: flex;
+justify-content: center;
+z-index: 9999;
+}
+.tagIniciais5:active{
+color: #800000;  
+}
+
+
+
+.image-container {
+  position: relative;
+top: 100px;
+}
+
+
+
+.box2{
+width: 1903px;
+height: 10px;
+color: white;
+background-color: #F3341F;
+border: 0px solid #000000;
+box-sizing: border-box;  
+position: absolute;
+left: 0px;
+top: 959px;
+z-index: 9999;
+}
+
+
+
+.box3{
+width: 1903px;
+height: 772px;
+color: black;
+background-color: #ffffff;
+border: 0px solid #000000;
+box-sizing: border-box;  
+position: relative;
+left: 0px;
+top: -4px;
+}
+
+
+
+.imagemFrigorifico{
+position: absolute;
+top: 9px;
+left: 880px;  
+}
+
+
+
+
+.animar-direita-para-esquerda {
+  animation-name: mover-direita-para-esquerda;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mover-direita-para-esquerda {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-45%);
+  }
+}
+
+
+
+  .trecho{
+font-size: 30px;  
+position: relative;
+top: 90px;
+left: 100px;
+color:#800000;
+}
+
+
+
+.trecho2{
+font-size: 20px;  
+position: relative;
+top: 100px;
+left: 50px;  
+}
+
+
+
+hr{
+margin-left: 75px;
+position: absolute;
+top: 125px;
+left: 11px;
+}
+
+
+
+
+button{
+background-color: #F3341F;
+color: #D9D9D9;
+padding: 1px 40px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 25px;
+margin: 60px;
+cursor: pointer;
+position: absolute;
+top: 300px;
+right: 1550px;  
+border-radius: 5px;
+}
+
+button:active{
+background-color: #800000;  
+}
+
+
+
+.frase{
+position: absolute;
+top: 35%;
+left: 44%;
+transform: translate(-50%, -50%);
+color: white;
+font-size: 70px;
+white-space: nowrap; 
+}
+
+
+
+button1{
+background-color: #F3341F;
+color: #D9D9D9;
+padding: 1px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 60px;
+cursor: pointer;
+position: absolute;
+top: 350px;
+right: 1220px;  
+white-space: nowrap;  
+border-radius: 5px;
+width: 550px;
+height: 60px;
+animation: move-right 1s forwards;
+}
+
+@keyframes move-right {
+			0% {
+				left: 0;
+			}
+			50% {
+				left: -60px;
+			}
+			100% {
+				left: 30px;
+			}
+		}
+
+
+
+button1:active{
+background-color: #800000;  
+}
+
+
+
+.box4{
+width: 1903px;
+height: 200px;
+color: white;
+background-color: #000000;
+border: 0px solid #000000;
+box-sizing: border-box;  
+position: absolute;
+left: 0px;
+top: 1737px;
+  margin: 0;
+padding: 0;
+}
+
+
+
+.fraseBox4{
+position: absolute;
+text-align: center;
+left: 36%;
+top: 40%;  
+font-size: 50px;
+}
+
+
+
+.hr1{
+margin-left: 75px;
+position: absolute;
+top: 105px;
+left: 125px;
+}
+
+.hr2{
+margin-left: 75px;
+position: absolute;
+top: 105px;
+left: 1110px;
+}
+
+
+
+.Textocordeiro{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 2000px;
+left: 42%;  
+}
+
+.linhaCordeiro{
+margin-left: 75px;
+position: absolute;
+top: 2060px;
+left: 660px; 
+}
+
+.cordeiro{
+position: absolute;
+top: 2150px;
+left: 120px;  
+}
+
+.trechoCordeiro{
+font-size: 20px;  
+position: relative;
+top: -477px;
+left: 840px;  
+}
+
+button3{
+background-color: #F3341F;
+color: #D9D9D9;
+padding: 1px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 60px;
+cursor: pointer;
+position: absolute;
+top: 2478px;
+right: 130px;  
+white-space: nowrap;  
+border-radius: 5px;
+width: 550px;
+height: 60px;
+}
+
+button3:active{
+background-color: #800000;  
+}
+
+
+
+
+.textoJavali{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 2700px;
+left: 45%;  
+}
+
+.linhaJavali{
+margin-left: 75px;
+position: absolute;
+top: 2760px;
+left: 660px; 
+}
+
+.javali{
+position: absolute;
+top: 2850px;
+left: 120px;    
+}
+
+.trechoJavali{
+font-size: 20px;  
+position: relative;
+top: -527px;
+left: 840px;  
+}
+
+button4{
+background-color: #F3341F;
+color: #D9D9D9;
+padding: 1px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 60px;
+cursor: pointer;
+position: absolute;
+top: 3228px;
+right: 130px;  
+white-space: nowrap;  
+border-radius: 5px;
+width: 550px;
+height: 60px;
+}
+
+button4:active{
+background-color: #800000;  
+}
+
+
+
+.textoCoelho{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 3490px;
+left: 45%;  
+}
+
+.linhaCoelho{
+margin-left: 75px;
+position: absolute;
+top: 3550px;
+left: 690px; 
+}
+
+.coelho{
+position: absolute;
+top: 3640px;
+left: 120px;    
+}
+
+.trechoCoelho{
+font-size: 20px;  
+position: relative;
+top: -527px;
+left: 840px;    
+}
+
+button5{
+background-color: #F3341F;
+color: #D9D9D9;
+padding: 1px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 60px;
+cursor: pointer;
+position: absolute;
+top: 4018px;
+right: 130px;  
+white-space: nowrap;  
+border-radius: 5px;
+width: 550px;
+height: 60px;
+}
+
+button5:active{
+background-color: #800000;  
+}
+
+
+
+.textoPato{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 4280px;
+left: 48%;  
+}
+
+.linhaPato{
+margin-left: 75px;
+position: absolute;
+top: 4340px;
+left: 690px; 
+}
+
+.pato{
+position: absolute;
+top: 4430px;
+left: 120px;    
+}
+
+.trechoPato{
+font-size: 20px;  
+position: relative;
+top: -559px;
+left: 840px;    
+}
+
+button6{
+background-color: #F3341F;
+color: #D9D9D9;
+padding: 1px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 60px;
+cursor: pointer;
+position: absolute;
+top: 4841px;
+right: 130px;  
+white-space: nowrap;  
+border-radius: 5px;
+width: 550px;
+height: 60px;
+}
+
+button6:active{
+background-color: #800000;  
+}
+
+
+
+.textoAvestruz{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 5070px;
+left: 45%;  
+}
+
+.linhaAvestruz{
+margin-left: 75px;
+position: absolute;
+top: 5130px;
+left: 705px; 
+}
+
+.avestruz{
+position: absolute;
+top: 5220px;
+left: 120px;    
+}
+
+.trechoAvestruz{
+font-size: 20px;  
+position: relative;
+top: -522px;
+left: 840px;    
+}
+
+button7{
+background-color: #F3341F;
+color: #D9D9D9;
+padding: 1px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 60px;
+cursor: pointer;
+position: absolute;
+top: 5595px;
+right: 130px;  
+white-space: nowrap;  
+border-radius: 5px;
+width: 550px;
+height: 60px;
+}
+
+button7:active{
+background-color: #800000;  
+}
+
+.box5{
+width: 1903px;
+height: 200px;
+color: white;
+background-color: #000000;
+border: 0px solid #000000;
+box-sizing: border-box;  
+position: absolute;
+left: 0px;
+top: 5750px;
+margin: 0;
+padding: 0;
+}
+
+.fraseBox5{
+position: absolute;
+text-align: center;
+left: 38%;
+top: 40%;  
+font-size: 50px;
+}
+
+.hr3{
+margin-left: 75px;
+position: absolute;
+top: 105px;
+left: 170px;
+}
+
+.hr4{
+margin-left: 75px;
+position: absolute;
+top: 105px;
+left: 1110px;
+}
+
+
+
+.textoPicanha{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 6040px;
+left: 45%;  
+}
+
+.linhaPicanha{
+margin-left: 75px;
+position: absolute;
+top: 6110px;
+left: 705px; 
+}
+
+.picanha{
+position: absolute;
+top: 6200px;
+left: 120px;    
+}
+
+.trechoPicanha{
+font-size: 20px;  
+position: relative;
+top: -560px;
+left: 840px;    
+}
+
+button8{
+background-color: #F3341F;
+color: #D9D9D9;
+padding: 1px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 60px;
+cursor: pointer;
+position: absolute;
+top: 6610px;
+right: 130px;  
+white-space: nowrap;  
+border-radius: 5px;
+width: 550px;
+height: 60px;
+}
+
+button8:active{
+background-color: #800000;  
+}
+
+
+
+.textoBifeAncho{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 6840px;
+left: 43%;  
+}
+
+.linhaBifeAncho{
+margin-left: 75px;
+position: absolute;
+top: 6910px;
+left: 695px; 
+}
+
+.bifeAncho{
+position: absolute;
+top: 7000px;
+left: 120px;    
+}
+
+.trechoBifeAncho{
+font-size: 20px;  
+position: relative;
+top: -560px;
+left: 840px;    
+}
+
+button9{
+background-color: #F3341F;
+color: #D9D9D9;
+padding: 1px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 60px;
+cursor: pointer;
+position: absolute;
+top: 7412px;
+right: 130px;  
+white-space: nowrap;  
+border-radius: 5px;
+width: 550px;
+height: 60px;
+}
+
+button9:active{
+background-color: #800000;  
+}
+
+
+
+.textoBifeChorizo{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 7640px;
+left: 43%;  
+}
+
+.linhaBifeChorizo{
+margin-left: 75px;
+position: absolute;
+top: 7710px;
+left: 720px; 
+}
+
+.bifeChorizo{
+position: absolute;
+top: 7800px;
+left: 120px;    
+}
+
+.trechoBifeChorizo{
+font-size: 20px;  
+position: relative;
+top: -575px;
+left: 840px;    
+}
+
+button10{
+background-color: #F3341F;
+color: #D9D9D9;
+padding: 1px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 60px;
+cursor: pointer;
+position: absolute;
+top: 8228px;
+right: 130px;  
+white-space: nowrap;  
+border-radius: 5px;
+width: 550px;
+height: 60px;
+}
+
+button10:active{
+background-color: #800000;  
+}
+
+
+
+
+.textoTBone{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 8460px;
+left: 46%;  
+}
+
+.linhaTBone{
+margin-left: 75px;
+position: absolute;
+top: 8530px;
+left: 700px; 
+}
+
+.TBone{
+position: absolute;
+top: 8630px;
+left: 120px;    
+}
+
+.trechoTBone{
+font-size: 20px;  
+position: relative;
+top: -560px;
+left: 840px;    
+}
+
+button11{
+background-color: #F3341F;
+color: #D9D9D9;
+padding: 1px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 60px;
+cursor: pointer;
+position: absolute;
+top: 9041px;
+right: 130px;  
+white-space: nowrap;  
+border-radius: 5px;
+width: 550px;
+height: 60px;
+}
+
+button11:active{
+background-color: #800000;  
+}
+
+
+
+.textoRib{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 9260px;
+left: 46%;  
+}
+
+.linhaRib{
+margin-left: 75px;
+position: absolute;
+top: 9330px;
+left: 730px; 
+}
+
+.Rib{
+position: absolute;
+top: 9430px;
+left: 120px;    
+}
+
+.trechoRib{
+font-size: 20px;  
+position: relative;
+top: -490px;
+left: 840px;    
+}
+
+button12{
+background-color: #F3341F;
+color: #D9D9D9;
+padding: 1px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 60px;
+cursor: pointer;
+position: absolute;
+top: 9769px;
+right: 130px;  
+white-space: nowrap;  
+border-radius: 5px;
+width: 550px;
+height: 60px;
+}
+
+button12:active{
+background-color: #800000;  
+}
+
+
+
+.FundoVaca{
+position: absolute;
+top: 9950px;
+left: 0px;    
+}
+
+
+.logoEmpresa{
+position: absolute;
+top: 10600px;
+left: 10px;    
+}
+
+.box6{
+width: 800px;
+height: 670px;
+color: white;
+background-color: #F3341F;
+border: 0px solid #000000;
+box-sizing: border-box;  
+position: absolute;
+left: 0px;
+top: 10550px;
+}
+
+
+
+.seloDeGarantia{
+position: absolute;
+left: 630px;
+top: 11100px;  
+}
+
+
+
+.aEmpresa{
+position: absolute;  
+font-size: 60px;
+color: #800000;  
+top: 10600px;
+left: 62%; 
+}
+
+.linhaAEmpresa{
+margin-left: 75px;
+position: absolute;
+top: 10670px;
+left: 1075px;  
+}
+
+.trechoAEmpresa{
+font-size: 20px;  
+position: relative;
+top: 8950px;
+left: 840px;    
+}
+
+
+
+.nossaHistoria{
+position: absolute;  
+font-size: 60px;
+color: #800000;  
+top: 10950px;
+left: 59%; 
+}
+
+.linhaNossaHistoria{
+margin-left: 75px;
+position: absolute;
+top: 11020px;
+left: 1020px;  
+}
+
+.trechoNossaHistoria{
+font-size: 20px;  
+position: relative;
+top: 9170px;
+left: 840px;    
+}
+
+
+
+.box7{
+width: 1903px;
+height: 200px;
+color: white;
+background-color: #000000;
+border: 0px solid #000000;
+box-sizing: border-box;  
+position: absolute;
+left: 0px;
+top: 11220px;
+margin: 0;
+padding: 0;
+}
+
+.fraseBox7{
+position: absolute;
+text-align: center;
+left: 43%;
+top: 40%;  
+font-size: 50px;
+}
+
+.hr5{
+margin-left: 75px;
+position: absolute;
+top: 105px;
+left: 200px;
+}
+
+.hr6{
+margin-left: 75px;
+position: absolute;
+top: 105px;
+left: 1070px;
+}
+
+
+
+.imagemReceitaCordeiro{
+position: absolute;
+top: 11600px;
+left: 950px;  
+}
+
+.textoReceitaCordeiro{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 11450px;
+left: 22%;  
+ 
+}
+
+.linhaReceitaCordeiro1{
+margin-left: 75px;
+position: absolute;
+top: 11500px;
+left: 10px;   
+}
+
+.linhaReceitaCordeiro2{
+margin-left: 75px;
+position: absolute;
+top: 11500px;
+left: 1420px;   
+}
+
+.trechoReceitaCordeiro1{
+position: relative;
+top: 9550px;
+left: 100px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaCordeiro2{
+position: relative;
+top: 9540px;
+left: 85px;  
+font-size: 15px;  
+}
+
+.trechoReceitaCordeiro3{
+position: relative;
+top: 9550px;
+left: 100px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaCordeiro4{
+position: relative;
+top: 9540px;
+left: 85px;  
+font-size: 15px;  
+}
+
+.trechoReceitaCordeiro5{
+position: relative;
+top: 9283px;
+left: 500px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaCordeiro6{
+position: relative;
+top: 9273px;
+left: 485px;  
+font-size: 15px;  
+}
+
+.trechoReceitaCordeiro7{
+position: relative;
+top: 9280px;
+left: 500px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaCordeiro8{
+position: relative;
+top: 9270px;
+left: 485px;  
+font-size: 15px;  
+}
+
+.trechoReceitaCordeiro9{
+position: relative;
+top: 9270px;
+left: 350px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaCordeiro10{
+position: relative;
+top: 9260px;
+left: 20px;  
+font-size: 15px;  
+}
+
+.trechoReceitaCordeiro11{
+position: relative;
+top: 9245px;
+left: 350px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaCordeiro12{
+position: relative;
+top: 9235px;
+left: 20px;  
+font-size: 15px;  
+}
+
+.trechoReceitaCordeiro13{
+position: relative;
+top: 9235px;
+left: 300px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaCordeiro14{
+position: relative;
+top: 9230px;
+left: 20px;  
+font-size: 15px;  
+}
+
+.trechoReceitaCordeiro15{
+position: relative;
+top: 9230px;
+left: 300px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaCordeiro16{
+position: relative;
+top: 9230px;
+left: 20px;  
+font-size: 15px;  
+}
+
+.relogioReceita1{
+position: absolute;
+top: 11520px;
+left: 90px;    
+}
+
+.tempoReceita1{
+position: absolute;
+top: 11510px;
+left: 130px;    
+font-size: 16px;
+font-weight: bold;
+}
+
+.grupoReceita1{
+position: absolute;
+top: 11520px;
+left: 220px;    
+}
+
+.quantidadeReceita1{
+position: absolute;
+top: 11510px;
+left: 260px;    
+font-size: 16px;
+font-weight: bold;
+}
+
+
+
+.textoReceitaJavali{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 12300px;
+left: 29%;  
+ 
+}
+
+.linhaReceitaJavali1{
+margin-left: 75px;
+position: absolute;
+top: 12325px;
+left: 100px;   
+}
+
+.linhaReceitaJavali2{
+margin-left: 75px;
+position: absolute;
+top: 12325px;
+left: 1319px;   
+}
+
+.relogioReceita2{
+position: absolute;
+top: 12349px;
+left: 180px;    
+}
+
+.tempoReceita2{
+position: absolute;
+top: 12340px;
+left: 217px;    
+font-size: 16px;
+font-weight: bold;
+}
+
+.grupoReceita2{
+position: absolute;
+top: 12349px;
+left: 300px;    
+}
+
+.quantidadeReceita2{
+position: absolute;
+top: 12340px;
+left: 340px;    
+font-size: 16px;
+font-weight: bold;
+}
+
+.imagemReceitaJavali{
+position: absolute;
+top: 12400px;
+left: 950px;  
+}
+
+.trechoReceitaJavali1{
+position: relative;
+top: 9460px;
+left: 600px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaJavali2{
+position: relative;
+top: 9450px;
+left: 130px;  
+font-size: 15px;  
+}
+  
+.trechoReceitaJavali3{
+position: relative;
+top: 9214px;
+left: 420px;  
+font-size: 15px;
+}
+
+.trechoReceitaJavali4{
+position: relative;
+top: 9350px;
+left: 350px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaJavali5{
+position: relative;
+top: 9340px;
+left: 150px;  
+font-size: 15px;
+}
+
+.trechoReceitaJavali6{
+position: relative;
+top: 8909px;
+left: 180px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+
+
+.imagemReceitaCoelho{
+position: absolute;
+top: 13200px;
+left: 950px;  
+}
+
+.textoReceitaCoelho{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 13100px;
+left: 21%;  
+ 
+}
+
+.linhaReceitaCoelho1{
+margin-left: 75px;
+position: absolute;
+top: 13120px;
+left: 2px;   
+}
+
+.linhaReceitaCoelho2{
+margin-left: 75px;
+position: absolute;
+top: 13120px;
+left: 1385px;   
+}
+
+.relogioReceita3{
+position: absolute;
+top: 13140px;
+left: 90px;    
+}
+
+.tempoReceita3{
+position: absolute;
+top: 13130px;
+left: 130px;    
+font-size: 16px;
+font-weight: bold;
+}
+
+.grupoReceita3{
+position: absolute;
+top: 13140px;
+left: 160px;    
+}
+
+.quantidadeReceita3{
+position: absolute;
+top: 13130px;
+left: 200px;    
+font-size: 16px;
+font-weight: bold;
+}
+
+.trechoReceitaCoelho1{
+position: relative;
+top: 9680px;
+left: 180px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaCoelho2{
+position: relative;
+top: 9673px;
+left: 130px;  
+font-size: 15px;  
+}
+
+.trechoReceitaCoelho3{
+position: relative;
+top: 9730px;
+left: 130px;  
+font-size: 15px;  
+}
+
+.trechoReceitaCoelho4{
+position: relative;
+top: 9380px;
+left: 180px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+
+
+.textoReceitaPato{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 13900px;
+left: 22%;  
+ 
+}
+
+.linhaReceitaPato1{
+margin-left: 75px;
+position: absolute;
+top: 13920px;
+left: 2px;   
+}
+
+.linhaReceitaPato2{
+margin-left: 75px;
+position: absolute;
+top: 13920px;
+left: 1450px;   
+}
+
+.relogioReceita4{
+position: absolute;
+top: 13937px;
+left: 90px;    
+}
+
+.tempoReceita4{
+position: absolute;
+top: 13928px;
+left: 130px;    
+font-size: 16px;
+font-weight: bold;
+}
+
+.grupoReceita4{
+position: absolute;
+top: 13937px;
+left: 160px;    
+}
+
+.quantidadeReceita4{
+position: absolute;
+top: 13928px;
+left: 200px;    
+font-size: 16px;
+font-weight: bold;
+}
+
+.imagemReceitaPato{
+position: absolute;
+top: 14000px;
+left: 950px;  
+}
+
+.trechoReceitaPato1{
+position: relative;
+top: 9880px;
+left: 180px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaPato2{
+position: relative;
+top: 9875px;
+left: 130px;  
+font-size: 15px;  
+}
+
+.trechoReceitaPato3{
+position: relative;
+top: 9910px;
+left: 150px;  
+font-size: 15px;
+}
+
+.trechoReceitaPato4{
+position: relative;
+top: 9800px;
+left: 180px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaPato5{
+position: relative;
+top: 9880px;
+left: 180px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaPato6{
+position: relative;
+top: 9880px;
+left: 130px;  
+font-size: 15px;
+}
+
+.trechoReceitaPato7{
+position: relative;
+top: 9925px;
+left: 150px;  
+font-size: 15px;
+}
+
+.trechoReceitaPato8{
+position: relative;
+top: 9790px;
+left: 180px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+
+
+.textoReceitaAvestruz{
+position: absolute;  
+font-size: 50px;
+color: #800000;  
+top: 14700px;
+left: 29%;  
+ 
+}
+
+.linhaReceitaAvestruz1{
+margin-left: 75px;
+position: absolute;
+top: 14750px;
+left: 120px;   
+}
+
+.linhaReceitaAvestruz2{
+margin-left: 75px;
+position: absolute;
+top: 14750px;
+left: 1370px;   
+}
+
+.relogioReceita5{
+position: absolute;
+top: 14767px;
+left: 210px;    
+}
+
+.tempoReceita5{
+position: absolute;
+top: 14758px;
+left: 248px;    
+font-size: 16px;
+font-weight: bold;
+}
+
+.grupoReceita5{
+position: absolute;
+top: 14767px;
+left: 290px;    
+}
+
+.quantidadeReceita5{
+position: absolute;
+top: 14758px;
+left: 328px;    
+font-size: 16px;
+font-weight: bold;
+}
+
+.imagemReceitaAvestruz{
+position: absolute;
+top: 14870px;
+left: 950px;  
+}
+
+.trechoReceitaAvestruz1{
+position: relative;
+top: 10120px;
+left: 180px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaAvestruz2{
+position: relative;
+top: 10120px;
+left: 130px;  
+font-size: 15px;
+}
+
+.trechoReceitaAvestruz3{
+position: relative;
+top: 10180px;
+left: 150px;  
+font-size: 15px;
+}
+
+.trechoReceitaAvestruz4{
+position: relative;
+top: 10060px;
+left: 180px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaAvestruz5{
+position: relative;
+top: 10155px;
+left: 180px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaAvestruz6{
+position: relative;
+top: 10150px;
+left: 130px;  
+font-size: 15px;
+}
+
+.trechoReceitaAvestruz7{
+position: relative;
+top: 10170px;
+left: 180px;  
+font-size: 20px;
+font-weight: bold;
+font-style: italic;  
+}
+
+.trechoReceitaAvestruz8{
+position: relative;
+top: 10165px;
+left: 150px;  
+font-size: 15px;
+}
+
+
+
+.box8{
+width: 1903px;
+height: 200px;
+color: white;
+background-color: #000000;
+border: 0px solid #000000;
+box-sizing: border-box;  
+position: absolute;
+left: 0px;
+top: 15500px;
+margin: 0px;
+padding: 0px;
+}
+
+.fraseBox9{
+position: absolute;
+text-align: center;
+left: 39%;
+top: 40%;  
+font-size: 50px;
+}
+
+.linhaOndeEstamos1{
+margin-left: 75px;
+position: absolute;
+top: 105px;
+left: 195px;
+}
+
+.linhaOndeEstamos2{
+margin-left: 75px;
+position: absolute;
+top: 105px;
+left: 1090px;
+}
+
+.localizacao{
+position: absolute;
+top: 15701px;
+left: 0px;  
+}
+
+
+
+.box10{
+width: 1903px;
+height: 750px;
+color: white;
+background-color: #000000;
+border: 0px solid #000000;
+box-sizing: border-box;  
+position: absolute;
+left: 0px;
+top: 16370px;
+margin: 0;
+padding: 0;
+}
+
+.fraseBox10{
+position: absolute;
+text-align: center;
+left: 42%;
+top: 2%;  
+font-size: 50px;
+}
+
+.linhaContato1{
+margin-left: 75px;
+position: absolute;
+top: 35px;
+left: 150px;
+}
+
+.linhaContato2{
+margin-left: 75px;
+position: absolute;
+top: 35px;
+left: 1090px;
+}
+
+
+
+.localizacaoFormulario{
+position: absolute;
+top: 16450px;
+left: 12%;
+}
+
+label{
+display: block;
+margin-bottom: 5px
+}
+
+.textoFormulario{
+margin: 20px;  
+}
+
+.corBranca{
+color: white;
+}
+
+.campo-input{
+width: 250px;  
+}
+
+.localizacaoFormulario1{
+position: absolute;
+top: 16645px;
+left: 12%;
+}
+
+label.radio{
+display: inline-block;  
+}
+
+
+
+.localizacaoFormulario2{
+position: absolute;
+top: 16800px;
+left: 13%;
+}
+
+ .localizacaoFormulario2 label {
+    margin-bottom: 10px;
+  }
+  
+.localizacaoFormulario2 select option {
+  font-size: 15px;
+}
+
+.localizacaoFormulario2 select {
+  font-size: 15px;
+}
+
+
+.container{
+display: flex;  
+align-items: center;
+}
+
+.checkbox{
+position: absolute;
+width: 20px;
+height: 20px;  
+left: 210px;
+top: 16905px;
+border: 2px solid gray;
+background-color: white;
+border-radius: 6px;  
+cursor: pointer;
+margin: 0 4px;
+}
+
+.marcado{
+border: 2px solid green;
+background-color: lightgreen;  
+}
+
+.checkbox1{
+position: absolute;
+width: 20px;
+height: 20px;  
+left: 210px;
+top: 16950px;
+border: 2px solid gray;
+background-color: white;
+border-radius: 6px;  
+cursor: pointer;
+margin: 0 4px;
+}
+
+.marcado1{
+border: 2px solid green;
+background-color: lightgreen;  
+}
+
+.checkbox2{
+position: absolute;
+width: 20px;
+height: 20px;  
+left: 210px;
+top: 17000px;
+border: 2px solid gray;
+background-color: white;
+border-radius: 6px;  
+cursor: pointer;
+margin: 0 4px;
+}
+
+.marcado2{
+border: 2px solid green;
+background-color: lightgreen;  
+}
+
+.TextoCheckbox{
+color: white;
+position: relative;
+top: 11627px;
+left: 250px; 
+font-size: 17px;
+}
+
+.TextoCheckbox1{
+color: white;
+position: relative;
+top: 11672px;
+left: 205px; 
+font-size: 17px;
+}
+
+.TextoCheckbox2{
+color: white;
+position: relative;
+top: 11722px;
+left: 170px; 
+font-size: 17px;
+}
+
+
+
+.receberNotificacao{
+color: white;
+position: relative;
+top: 11575px;
+left: 250px; 
+font-size: 17px;
+}
+
+
+
+.form-group{
+position: relative;
+top: 11520px;
+left: 500px;  
+color: white;
+}
+
+
+.buttonEnviar{
+position: relative;
+top: 40px;
+left: -380px;   
+}
+
+
+
+.box11{
+width: 1903px;
+height: 100px;
+color: white;
+background-color: #F3341F;
+border: 0px solid #000000;
+box-sizing: border-box;  
+position: absolute;
+left: -500px;
+top: 280px;
+margin: 0;
+padding: 0;
+}
+
+footer{
+text-align: center;
+font-size: 1em;  
+columns: 3;
+flex-shrink: 0;
+padding: 20px;
+margin: 10px;
+}
+
